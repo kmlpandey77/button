@@ -1,6 +1,6 @@
 {
   "name": "scss-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SCSS Button",
   "main": "index.js",
   "repository": "https://github.com/kmlpandey77/button.git",
@@ -12,5 +12,6 @@
   "files": [
     "dist/**",
     "scss/**"
-  ]
+  ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }

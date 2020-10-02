@@ -8,5 +8,9 @@
   "license": "MIT",
   "devDependencies": {
     "laravel-mix": "^5.0.5"
-  }
+  },
+  "files": [
+    "dist/**",
+    "scss/**"
+  ]
 }

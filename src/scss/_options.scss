@@ -1,0 +1,10 @@
+$btn-colors:(
+    primary: ($primary #fff),
+    secondary: ($secondary #fff)
+)!default;
+
+$btn-shapes: (
+  rounded: 0.2em,
+  pill: 5em,
+//   circle: 100%
+) !default;

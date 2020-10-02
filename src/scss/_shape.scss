@@ -1,0 +1,5 @@
+@each $name, $radius in $btn-shapes {
+    #{$btn-name}-#{$name}{
+        border-radius: $radius;
+    }
+}

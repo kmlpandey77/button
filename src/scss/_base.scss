@@ -1,0 +1,28 @@
+#{$btn_name} {
+    background: $btn-bgcolor;
+    color: $btn-font-color;
+    font-weight: $btn-font-weight;
+    font-size: $btn-font-size;
+    font-family: $btn-font-family;
+    line-height: $btn-height;
+    height: $btn-height;
+    padding: 0 $btn-height;
+    display: inline-block;
+    margin: 0;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@each $name, $color in $btn-colors {
+    $btn-background: nth($color, 1);
+    $btn-color: nth($color, 2);
+  
+    #{$btn-name}-#{$name}{
+      background-color: $btn-background;
+      border-color: $btn-background;
+      color: $btn-color;
+    }
+}

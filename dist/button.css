@@ -1,0 +1,40 @@
+.button {
+  background: #EEE;
+  color: #666;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-family: Arial, "Noto Sans", sans-serif;
+  line-height: 2.2em;
+  height: 2.2em;
+  padding: 0 2.2em;
+  display: inline-block;
+  margin: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.button-primary {
+  background-color: #1f4287;
+  border-color: #1f4287;
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: #ff304f;
+  border-color: #ff304f;
+  color: #fff;
+}
+
+.button-rounded {
+  border-radius: 0.2em;
+}
+
+.button-pill {
+  border-radius: 5em;
+}
+

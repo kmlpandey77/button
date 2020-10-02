@@ -137,10 +137,3 @@ $btn-shapes: (
 <button class="button button-primary button-pill">Primary</button>
 <button class="button button-seondary button-pill">Seondary</button>
 ```
-
-
-
-
-
-
-

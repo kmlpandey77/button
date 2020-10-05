@@ -1,5 +1,3 @@
 let mix = require('laravel-mix');
 
-
-mix
-.sass('scss/button.scss', 'dist/');
+mix.sass('scss/button.scss', 'dist/');

@@ -14,6 +14,15 @@
     border: none;
     box-sizing: border-box;
     text-decoration: none;
+
+    &:hover{
+      background: darken($btn-bgcolor, 5%);
+    }
+
+    &:focus, 
+    &:active{
+      outline: none;
+    }
 }
 
 @each $name, $color in $btn-colors {
@@ -24,5 +33,9 @@
       background-color: $btn-background;
       border-color: $btn-background;
       color: $btn-color;
+
+      &:hover{
+        background-color: darken($btn-background, 5%);
+      }
     }
 }

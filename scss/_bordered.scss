@@ -1,0 +1,29 @@
+#{$btn_name}-bordered {
+    border-width: 0.125em;
+    border-style: solid;
+    border-color: $btn-bgcolor;
+    background: none;
+    line-height: $btn-height - 0.25;
+    padding-left:$btn-height - 0.125;
+    padding-right:$btn-height - 0.125;
+
+    &:hover{
+      background: $btn-bgcolor;
+    }
+
+    @each $name, $color in $btn-colors {
+        $btn-background: nth($color, 1);
+        $btn-color: nth($color, 2);
+      
+        &#{$btn-name}-#{$name}{
+          border-color: $btn-background;
+          color: $btn-background;
+          
+          &:hover{
+            color: $btn-color;
+            background-color: $btn-background;
+          }
+        }
+    }
+}
+

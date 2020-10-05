@@ -1,6 +1,10 @@
 $btn-colors:(
     primary: ($primary #fff),
-    secondary: ($secondary #fff)
+    secondary: ($secondary #fff),
+    danger: ($danger #fff),
+    warning: ($warning #fff),
+    success: ($success #fff),
+    info: ($info #fff),
 )!default;
 
 $btn-shapes: (

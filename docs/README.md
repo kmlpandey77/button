@@ -29,7 +29,7 @@ your-project/
 @import "../node_modules/scss-button/scss/button";
 ```
 
-```css
+```scss
 // your-scss.scss
 
 // Option B: Include parts
@@ -49,11 +49,11 @@ Every Sass variable in SCSS Button includes the `!default` flag allowing you to 
 
 Here’s an example that changes the color for the <body> when importing and compiling:
 
-```css
+```scss
 // your-scss.scss
 
 // Your variable overrides
-$primry: red;
+$primary: red;
 $secondary: back;
 
 // SCSS BUTTON
@@ -113,7 +113,7 @@ $btn-shapes: (
 );
 ```
 
-## Uses
+## Usage
 
 ### Flat
 ```html

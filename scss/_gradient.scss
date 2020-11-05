@@ -1,0 +1,21 @@
+#{$btn_name}-gradient {
+    background-image: linear-gradient(darken($btn-bgcolor, 10), $btn-bgcolor);
+
+    @each $name, $color in $btn-colors {
+        $btn-background: nth($color, 1);
+        $btn-color: nth($color, 2);
+    
+        &#{$btn-name}-#{$name}{
+            // background-image: linear-gradient(darken($btn-background, 10), $btn-background);
+            background-image: linear-gradient(darken($btn-background, 15%) 0%, $btn-background 50%, darken($btn-background, 15%) 100%);
+            background-size: 200%;
+            height: 100%;
+            background-position-y: 0;        
+            transition: all 0.5s;
+
+            &:hover{
+                background-position-x: -100%;
+            }
+        }
+    }
+}
